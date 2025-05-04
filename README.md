@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     %% Atores
     actor Vendedor as "Vendedor"
@@ -52,3 +53,4 @@ sequenceDiagram
         «create» Entidade Pedido persistida no BD  
         «destroy» Objeto Pedido após commit
     end
+```
